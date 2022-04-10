@@ -13,7 +13,7 @@ class RootSerializer extends DataArraySerializer
      * @param  array   $data
      * @return array
      */
-    public function collection($resourceKey, array $data)
+    public function collection($resourceKey, array $data): array
     {
         return is_null($resourceKey) ? $data : [$resourceKey => $data];
     }
@@ -25,7 +25,7 @@ class RootSerializer extends DataArraySerializer
      * @param  array   $data
      * @return array
      */
-    public function item($resourceKey, array $data)
+    public function item($resourceKey, array $data): array
     {
         return is_null($resourceKey) ? $data : [$resourceKey => $data];
     }

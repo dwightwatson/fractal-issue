@@ -7,9 +7,9 @@ use League\Fractal\TransformerAbstract;
 
 class CommentTransformer extends TransformerAbstract
 {
-    protected $availableIncludes = ['user'];
+    protected array $availableIncludes = ['user'];
 
-    protected $defaultIncludes = ['user'];
+    protected array $defaultIncludes = ['user'];
 
     public function transform(Comment $comment)
     {
