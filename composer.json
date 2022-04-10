@@ -1,0 +1,25 @@
+{
+    "name": "watson/fractal-issue",
+    "require": {
+        "league/fractal": "0.19"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Watson\\FractalIssue\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Watson\\FractalIssue\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dwight Watson",
+            "email": "dwightwatson@users.noreply.github.com"
+        }
+    ]
+}
